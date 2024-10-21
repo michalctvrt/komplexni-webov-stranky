@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+   <!-- Michal Čtvrtníček
+michal.ctvrt@gmail.com
+Michal Č. -->
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="query.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gruppo&family=Major+Mono+Display&display=swap"
+      rel="stylesheet" />
+      
+      
+  </head>
+  <body>
+
+
+<!-- HEADER ===> HERO SECTION     -->
+
+    <header>
+
+
+      <div class="header_content">
+        <h1>#KÁVA #COFFEE #JDEMENAKAFE #FLATWHITE #DVOJTYPRESSO</h1>
+        <h2>KÁVOVÝ MAGAZÍN</h2>
+      </div>
+
+
+<!-- LOGO ===> LEFT SIDE -->
+
+
+      <nav>
+        <div class="nav_content">
+          <div class="logo">
+            <img src="./images/logo.png" alt="coffee" />
+          </div>
+
+
+<!-- NAV BAR -->
+
+
+          <div class="nav_item">
+          <ul>
+            <li><a href="#product_title">Produkty</a></li>
+            <li><a href="#mag_container">Magazín</a></li>
+            <li><a href="#form_container">Daruj zrnko</a></li>
+            <li><a href="#footer_container">Kontakt</a></li>  
+          </ul>
+          </div>
+
+
+ <!-- ICONS ===> RIGHT SIDE          -->
+
+          <div class="icons">
+            <div class="mode_icons">
+            <i class="fa-solid fa-moon"></i>
+            <!-- <i class="fa-solid fa-sun"></i> -->
+            </div>
+            <div class="menu_icons">
+            <i class="fa-solid fa-bars"></i>
+            <!-- <i class="fa-solid fa-xmark"></i> -->
+            </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- MAIN -->
+
+    <main>
+      
+
+<!-- FIRST SECTION ===> PRODUKTY -->
+
+      <div class="product_title" id="product_title">
+        <h2>Produkty</h2>
+      </div>
+      <div class="products">
+        <div class="gallery">
+          <div class="img_box"><h5>Káva</h5></div>
+          <div class="img_box"><h5>Vybavení</h5></div>
+          <div class="img_box"><h5>Knihy</h5></div>
+          <div class="img_box"><h5>Merch</h5></div>
+        </div>
+      </div>
+
+
+<!-- SECOND SECTION ===> MAGAZÍN -->
+
+      <div class="mag_container" id="mag_container">
+        <h2>Magazín</h2>
+        <div class="range">
+
+
+
+<!-- PRVNÍ ČLÁNEK -->
+
+          <div class="mag_item">
+            <div class="item_photo">
+              <img src="./images/coffee1.jpg" alt="coffee" />
+            </div>
+            <div class="item_contetnt">
+              <h4>Článek 1</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,
+                dolore, recusandae tempora quod rerum explicabo alias.
+              </p>
+              <a href="#" class="btn">dozvědět se více</a>
+            </div>
+          </div>
+
+
+<!-- DRUHÝ ČLÁNEK -->
+
+
+          <div class="mag_item">
+            <div class="item_photo">
+              <img src="./images/coffee2.jpg" alt="coffee" />
+            </div>
+
+              <div class="item_contetnt">
+                <h4>Článek 2</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Vitae, dolore, recusandae tempora quod rerum explicabo alias.
+                </p>
+                <a href="#" class="btn">dozvědět se více</a>
+              </div>
+            </div>
+          
+
+<!-- TŘETÍ ČLÁNEK  -->
+
+          <div class="mag_item">
+            <div class="item_photo">
+              <img src="./images/coffee3.jpg" alt="coffee" />
+            </div>
+              <div class="item_contetnt">
+                <h4>Článek 3</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Vitae, dolore, recusandae tempora quod rerum explicabo alias.
+                </p>
+                <a href="#" class="btn">dozvědět se více</a>
+              </div>
+            </div>
+            </div>
+          </div>
+          
+
+
+
+<!-- FORM -->
+
+        
+        <div class="form_container" id="form_container">
+          <div class="form_title">Stát se členem - Daruj zrnko</div>
+          <form action="#" class="form">
+            <div class="input_box">
+              <label>Jméno</label>
+              <input type="text" placeholder="Jméno" required />
+              <label>Příjmení</label>
+              <input type="text" placeholder="Příjmení" required />
+              <label>Email</label>
+              <input type="email" placeholder="Email" required />
+              <label>Heslo</label>
+              <input type="password" class="password" placeholder="Heslo" required />
+              
+              <input
+                type="password" class="cnfrm_password"
+                placeholder="Heslo ještě jednou"
+                required />
+                <p class="message"></p>
+              <input type="submit" class="submit" value="odeslat"
+            </div>
+          </form>
+        </div>
+      </div>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer_container" id="footer_container">
+        <div class="contacts">
+          <ul>
+            <li><a href="#"><i class="fa-solid fa-phone"></i>+420 777 333 777</a></li>
+            <li><a href="#"><i class="fa-solid fa-location-dot"></i>Nesmyslova 12, Brno </a></li>
+            <li><a href="#"><i class="fa-solid fa-envelope"></i>info@coffeepoint.cz</a></li>
+          </ul>
+        </div>
+        <div class="socials">
+          <ul>
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copy">©2024 Coffee Point s.r.o.</div>
+
+
+    </footer>
+
+<!-- BACK TO TOP BTN -->
+
+    <a href="#" class="to_top">
+      <i class="fa-solid fa-circle-up"></i>
+    </a>
+
+    <script src="script.js"></script>
+  </body>
+</html>
