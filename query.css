@@ -1,0 +1,88 @@
+@media (max-width: 880px) {
+  /* HEADER */
+
+  header {
+    position: relative;
+  }
+  .header_content h1 {
+    font-size: 1.5rem;
+  }
+  .header_content h2 {
+    font-size: 1.5rem;
+  }
+
+  /* NAV BAR  */
+
+  .nav_item {
+    position: absolute;
+    top: 150px;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 100%;
+    display: none;
+  }
+  .nav_item li {
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+  }
+  .nav_item ul {
+    background-color: rgba(110, 90, 63, 0.904);
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.521);
+    width: 100%;
+    margin: auto;
+  }
+  .nav_item ul li a {
+    color: #fff;
+  }
+
+  /* ICONS===> RIGHT SIDE */
+
+  .menu_icon {
+    display: block;
+    font-size: 23px;
+    color: var(--nav);
+  }
+  .menu_icons {
+    display: block;
+  }
+
+  /* FIRST SECTION ===> PRODUKTY */
+
+  .gallery {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+    padding: 15px;
+  }
+
+  /* SECOND SECTION ===> MAGAZÍN  */
+
+  .mag_item {
+    width: 100%;
+  }
+  .img_box h5 {
+    position: relative;
+    text-align: center;
+    padding-top: 40%;
+    font-size: calc(2rem + 0.02vw);
+    transform: none;
+  }
+
+  .img_box {
+    width: 100%;
+  }
+
+  /* FORM */
+
+  .form_container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 901px) {
+  .nav {
+    display: block !important;
+  }
+}
